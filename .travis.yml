@@ -1,3 +1,4 @@
+os: osx
 jobs:
   include:
     - stage: speedtest
